@@ -1,0 +1,351 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57FC4126243CC1E5002C7FC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FC4125243CC1E5002C7FC4 /* AppDelegate.swift */; };
+		57FC4128243CC1E5002C7FC4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FC4127243CC1E5002C7FC4 /* SceneDelegate.swift */; };
+		57FC412A243CC1E5002C7FC4 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FC4129243CC1E5002C7FC4 /* WelcomeViewController.swift */; };
+		57FC412D243CC1E5002C7FC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57FC412B243CC1E5002C7FC4 /* Main.storyboard */; };
+		57FC412F243CC1E7002C7FC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57FC412E243CC1E7002C7FC4 /* Assets.xcassets */; };
+		57FC4132243CC1E7002C7FC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57FC4130243CC1E7002C7FC4 /* LaunchScreen.storyboard */; };
+		57FC413A243CC6ED002C7FC4 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FC4139243CC6ED002C7FC4 /* SettingsViewController.swift */; };
+		57FC413C243CC868002C7FC4 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FC413B243CC868002C7FC4 /* Settings.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		57FC4122243CC1E5002C7FC4 /* KVO-iOS-Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KVO-iOS-Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57FC4125243CC1E5002C7FC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		57FC4127243CC1E5002C7FC4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		57FC4129243CC1E5002C7FC4 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		57FC412C243CC1E5002C7FC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57FC412E243CC1E7002C7FC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57FC4131243CC1E7002C7FC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		57FC4133243CC1E7002C7FC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57FC4139243CC6ED002C7FC4 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		57FC413B243CC868002C7FC4 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57FC411F243CC1E5002C7FC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57FC4119243CC1E5002C7FC4 = {
+			isa = PBXGroup;
+			children = (
+				57FC4124243CC1E5002C7FC4 /* KVO-iOS-Project */,
+				57FC4123243CC1E5002C7FC4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57FC4123243CC1E5002C7FC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57FC4122243CC1E5002C7FC4 /* KVO-iOS-Project.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57FC4124243CC1E5002C7FC4 /* KVO-iOS-Project */ = {
+			isa = PBXGroup;
+			children = (
+				57FC4125243CC1E5002C7FC4 /* AppDelegate.swift */,
+				57FC4127243CC1E5002C7FC4 /* SceneDelegate.swift */,
+				57FC413B243CC868002C7FC4 /* Settings.swift */,
+				57FC4129243CC1E5002C7FC4 /* WelcomeViewController.swift */,
+				57FC4139243CC6ED002C7FC4 /* SettingsViewController.swift */,
+				57FC412B243CC1E5002C7FC4 /* Main.storyboard */,
+				57FC412E243CC1E7002C7FC4 /* Assets.xcassets */,
+				57FC4130243CC1E7002C7FC4 /* LaunchScreen.storyboard */,
+				57FC4133243CC1E7002C7FC4 /* Info.plist */,
+			);
+			path = "KVO-iOS-Project";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57FC4121243CC1E5002C7FC4 /* KVO-iOS-Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57FC4136243CC1E7002C7FC4 /* Build configuration list for PBXNativeTarget "KVO-iOS-Project" */;
+			buildPhases = (
+				57FC411E243CC1E5002C7FC4 /* Sources */,
+				57FC411F243CC1E5002C7FC4 /* Frameworks */,
+				57FC4120243CC1E5002C7FC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KVO-iOS-Project";
+			productName = "KVO-iOS-Project";
+			productReference = 57FC4122243CC1E5002C7FC4 /* KVO-iOS-Project.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57FC411A243CC1E5002C7FC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Alex Paul";
+				TargetAttributes = {
+					57FC4121243CC1E5002C7FC4 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = 57FC411D243CC1E5002C7FC4 /* Build configuration list for PBXProject "KVO-iOS-Project" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57FC4119243CC1E5002C7FC4;
+			productRefGroup = 57FC4123243CC1E5002C7FC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57FC4121243CC1E5002C7FC4 /* KVO-iOS-Project */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57FC4120243CC1E5002C7FC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57FC4132243CC1E7002C7FC4 /* LaunchScreen.storyboard in Resources */,
+				57FC412F243CC1E7002C7FC4 /* Assets.xcassets in Resources */,
+				57FC412D243CC1E5002C7FC4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57FC411E243CC1E5002C7FC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57FC412A243CC1E5002C7FC4 /* WelcomeViewController.swift in Sources */,
+				57FC4126243CC1E5002C7FC4 /* AppDelegate.swift in Sources */,
+				57FC4128243CC1E5002C7FC4 /* SceneDelegate.swift in Sources */,
+				57FC413A243CC6ED002C7FC4 /* SettingsViewController.swift in Sources */,
+				57FC413C243CC868002C7FC4 /* Settings.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		57FC412B243CC1E5002C7FC4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57FC412C243CC1E5002C7FC4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57FC4130243CC1E7002C7FC4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57FC4131243CC1E7002C7FC4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57FC4134243CC1E7002C7FC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		57FC4135243CC1E7002C7FC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57FC4137243CC1E7002C7FC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZEKMNK5YD3;
+				INFOPLIST_FILE = "KVO-iOS-Project/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alexcpaul.KVO-iOS-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57FC4138243CC1E7002C7FC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZEKMNK5YD3;
+				INFOPLIST_FILE = "KVO-iOS-Project/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alexcpaul.KVO-iOS-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57FC411D243CC1E5002C7FC4 /* Build configuration list for PBXProject "KVO-iOS-Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57FC4134243CC1E7002C7FC4 /* Debug */,
+				57FC4135243CC1E7002C7FC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57FC4136243CC1E7002C7FC4 /* Build configuration list for PBXNativeTarget "KVO-iOS-Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57FC4137243CC1E7002C7FC4 /* Debug */,
+				57FC4138243CC1E7002C7FC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57FC411A243CC1E5002C7FC4 /* Project object */;
+}
